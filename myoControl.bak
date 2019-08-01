@@ -1,0 +1,748 @@
+EESchema Schematic File Version 4
+LIBS:snickerdoodle_shield-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 5D444A68
+P 5350 2400
+F 0 "J?" H 5400 3517 50  0000 C CNN
+F 1 "JA2" H 5400 3426 50  0000 C CNN
+F 2 "" H 5350 2400 50  0001 C CNN
+F 3 "~" H 5350 2400 50  0001 C CNN
+	1    5350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 5D444A6E
+P 2700 2400
+F 0 "J?" H 2750 3517 50  0000 C CNN
+F 1 "JA1" H 2750 3426 50  0000 C CNN
+F 2 "" H 2700 2400 50  0001 C CNN
+F 3 "~" H 2700 2400 50  0001 C CNN
+	1    2700 2400
+	1    0    0    -1  
+$EndComp
+Text Label 2500 1500 2    50   ~ 0
+VIO_OUT(+3.3V)
+Text Label 2500 1600 2    50   ~ 0
+VCCO_35
+Text Label 2500 1700 2    50   ~ 0
+IO_L5P_T0_AD9P_35
+Text Label 2500 1800 2    50   ~ 0
+IO_L5N_T0_AD9N_35
+Text Label 2500 1900 2    50   ~ 0
+GND
+Text Label 2500 2200 2    50   ~ 0
+GND
+Text Label 2500 2500 2    50   ~ 0
+GND
+Text Label 2500 2800 2    50   ~ 0
+GND
+Text Label 2500 3100 2    50   ~ 0
+GND
+Text Label 2500 2000 2    50   ~ 0
+IO_L6P_T0_35
+Text Label 2500 2100 2    50   ~ 0
+IO_L6N_T0_VREF_35
+Text Label 2500 2300 2    50   ~ 0
+IO_L3P_T0_DQS_AD1P_35
+Text Label 2500 2400 2    50   ~ 0
+IO_L3N_T0_DQS_AD1N_35
+Text Label 2500 2600 2    50   ~ 0
+IO_L15P_T2_DQS_AD12P_35
+Text Label 2500 2700 2    50   ~ 0
+IO_L15N_T2_DQS_AD12N_35
+Text Label 2500 2900 2    50   ~ 0
+IO_L17P_T2_AD5P_35
+Text Label 2500 3000 2    50   ~ 0
+IO_L17N_T2_AD5N_35
+Text Label 2500 3200 2    50   ~ 0
+IO_L14P_T2_AD4P_SRCC_35
+Text Label 2500 3300 2    50   ~ 0
+IO_L14N_T2_AD4N_SRCC_35
+Text Label 2500 3400 2    50   ~ 0
+SMB_I2C_SCL0
+Text Label 3000 1500 0    50   ~ 0
+JA1_SMB_nINT
+Text Label 3000 1600 0    50   ~ 0
+IO_0_35
+Text Label 3000 1700 0    50   ~ 0
+IO_L4N_T0_35
+Text Label 3000 1800 0    50   ~ 0
+IO_L4P_T0_35
+Text Label 3000 1900 0    50   ~ 0
+GND
+Text Label 3000 2200 0    50   ~ 0
+GND
+Text Label 3000 2500 0    50   ~ 0
+GND
+Text Label 3000 2800 0    50   ~ 0
+GND
+Text Label 3000 3100 0    50   ~ 0
+GND
+Text Label 3000 2000 0    50   ~ 0
+IO_L1N_T0_AD0N_35
+Text Label 3000 2100 0    50   ~ 0
+IO_L1P_T0_AD0P_35
+Text Label 3000 2300 0    50   ~ 0
+IO_L2N_T0_AD8N_35
+Text Label 3000 2400 0    50   ~ 0
+IO_L2P_T0_AD8P_35
+Text Label 3000 2600 0    50   ~ 0
+IO_L18N_T2_AD13N_35
+Text Label 3000 2700 0    50   ~ 0
+IO_L18P_T2_AD13P_35
+Text Label 3000 2900 0    50   ~ 0
+IO_L16N_T2_35
+Text Label 3000 3000 0    50   ~ 0
+IO_L16P_T2_35
+Text Label 3000 3200 0    50   ~ 0
+IO_L13N_T2_MRCC_35
+Text Label 3000 3300 0    50   ~ 0
+IO_L13P_T2_MRCC_35
+Text Label 3000 3400 0    50   ~ 0
+SMB_I2C_SDA0
+Text Label 5150 1500 2    50   ~ 0
+VIO_OUT(+3.3V)
+Text Label 5650 1500 0    50   ~ 0
+JA2_SMB_nINT
+Text Label 5650 1600 0    50   ~ 0
+IO_25_35
+Text Label 5650 1700 0    50   ~ 0
+IO_L24N_T3_AD15N_35
+Text Label 5650 1800 0    50   ~ 0
+IO_L24P_T3_AD15P_35
+Text Label 5650 1900 0    50   ~ 0
+GND
+Text Label 5650 2200 0    50   ~ 0
+GND
+Text Label 5650 2500 0    50   ~ 0
+GND
+Text Label 5650 2800 0    50   ~ 0
+GND
+Text Label 5650 3100 0    50   ~ 0
+GND
+Text Label 5150 1900 2    50   ~ 0
+GND
+Text Label 5150 2200 2    50   ~ 0
+GND
+Text Label 5150 2500 2    50   ~ 0
+GND
+Text Label 5150 2800 2    50   ~ 0
+GND
+Text Label 5150 3100 2    50   ~ 0
+GND
+Text Label 5650 2000 0    50   ~ 0
+IO_L19N_T3_VREF_35
+Text Label 5650 2100 0    50   ~ 0
+IO_L19P_T3_35
+Text Label 5650 2300 0    50   ~ 0
+IO_L20N_T3_AD6N_35
+Text Label 5650 2400 0    50   ~ 0
+IO_L20P_T3_AD6P_35
+Text Label 5650 2600 0    50   ~ 0
+IO_L10N_T1_AD11N_35
+Text Label 5650 2700 0    50   ~ 0
+IO_L10P_T1_AD11P_35
+Text Label 5650 2900 0    50   ~ 0
+IO_L7N_T1_AD2N_35
+Text Label 5650 3000 0    50   ~ 0
+IO_L7P_T1_AD2P_35
+Text Label 5650 3200 0    50   ~ 0
+IO_L12N_T1_MRCC_35
+Text Label 5650 3300 0    50   ~ 0
+IO_L12P_T1_MRCC_35
+Text Label 5650 3400 0    50   ~ 0
+SMB_I2C_SDA1
+Text Label 5150 1600 2    50   ~ 0
+VCCO_35
+Text Label 5150 1700 2    50   ~ 0
+IO_L22P_T3_AD7P_35
+Text Label 5150 1800 2    50   ~ 0
+IO_L22N_T3_AD7N_35
+Text Label 5150 2000 2    50   ~ 0
+IO_L23P_T3_35
+Text Label 5150 2100 2    50   ~ 0
+IO_L23N_T3_35
+Text Label 5150 2300 2    50   ~ 0
+IO_L21P_T3_DQS_AD14P_35
+Text Label 5150 2400 2    50   ~ 0
+IO_L21N_T3_DQS_AD14N_35
+Text Label 5150 2600 2    50   ~ 0
+IO_L9P_T1_DQS_AD3P_35
+Text Label 5150 2700 2    50   ~ 0
+IO_L9N_T1_DQS_AD3N_35
+Text Label 5150 2900 2    50   ~ 0
+IO_L8P_T1_AD10P_35
+Text Label 5150 3000 2    50   ~ 0
+IO_L8N_T1_AD10N_35
+Text Label 5150 3200 2    50   ~ 0
+IO_L11P_T1_SRCC_35
+Text Label 5150 3300 2    50   ~ 0
+IO_L11N_T1_SRCC_35
+Text Label 5150 3400 2    50   ~ 0
+SMB_I2C_SCL1
+$Comp
+L Connector:Conn_01x12_Female J?
+U 1 1 5D4475DC
+P 1900 5200
+F 0 "J?" V 1973 5130 50  0000 C CNN
+F 1 "shoulder_left" V 2064 5130 50  0000 C CNN
+F 2 "" H 1900 5200 50  0001 C CNN
+F 3 "~" H 1900 5200 50  0001 C CNN
+	1    1900 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x12_Female J?
+U 1 1 5D4494C6
+P 1900 7300
+F 0 "J?" V 1973 7230 50  0000 C CNN
+F 1 "shoulder_right" V 2064 7230 50  0000 C CNN
+F 2 "" H 1900 7300 50  0001 C CNN
+F 3 "~" H 1900 7300 50  0001 C CNN
+	1    1900 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x10_Female J?
+U 1 1 5D44C061
+P 3450 5200
+F 0 "J?" V 3523 5130 50  0000 C CNN
+F 1 "neck" V 3614 5130 50  0000 C CNN
+F 2 "" H 3450 5200 50  0001 C CNN
+F 3 "~" H 3450 5200 50  0001 C CNN
+	1    3450 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x10_Female J?
+U 1 1 5D44D441
+P 3450 7300
+F 0 "J?" V 3523 7230 50  0000 C CNN
+F 1 "spine" V 3614 7230 50  0000 C CNN
+F 2 "" H 3450 7300 50  0001 C CNN
+F 3 "~" H 3450 7300 50  0001 C CNN
+	1    3450 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x10_Female J?
+U 1 1 5D44DF76
+P 4900 5200
+F 0 "J?" V 4973 5130 50  0000 C CNN
+F 1 "leg_left" V 5064 5130 50  0000 C CNN
+F 2 "" H 4900 5200 50  0001 C CNN
+F 3 "~" H 4900 5200 50  0001 C CNN
+	1    4900 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x10_Female J?
+U 1 1 5D44EE2D
+P 4900 7300
+F 0 "J?" V 4973 7230 50  0000 C CNN
+F 1 "leg_right" V 5064 7230 50  0000 C CNN
+F 2 "" H 4900 7300 50  0001 C CNN
+F 3 "~" H 4900 7300 50  0001 C CNN
+	1    4900 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5D45AA78
+P 6500 4750
+F 0 "J?" V 6346 4798 50  0000 L CNN
+F 1 "SHIELD" V 6437 4798 50  0000 L CNN
+F 2 "" H 6500 4750 50  0001 C CNN
+F 3 "~" H 6500 4750 50  0001 C CNN
+	1    6500 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4637CD
+P 6500 4550
+F 0 "#PWR?" H 6500 4300 50  0001 C CNN
+F 1 "GND" H 6505 4377 50  0000 C CNN
+F 2 "" H 6500 4550 50  0001 C CNN
+F 3 "" H 6500 4550 50  0001 C CNN
+	1    6500 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5D46E0C5
+P 7000 4750
+F 0 "J?" V 6846 4798 50  0000 L CNN
+F 1 "SHIELD" V 6937 4798 50  0000 L CNN
+F 2 "" H 7000 4750 50  0001 C CNN
+F 3 "~" H 7000 4750 50  0001 C CNN
+	1    7000 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D46E0CF
+P 7000 4550
+F 0 "#PWR?" H 7000 4300 50  0001 C CNN
+F 1 "GND" H 7005 4377 50  0000 C CNN
+F 2 "" H 7000 4550 50  0001 C CNN
+F 3 "" H 7000 4550 50  0001 C CNN
+	1    7000 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5D4981BA
+P 7500 4750
+F 0 "J?" V 7346 4798 50  0000 L CNN
+F 1 "SHIELD" V 7437 4798 50  0000 L CNN
+F 2 "" H 7500 4750 50  0001 C CNN
+F 3 "~" H 7500 4750 50  0001 C CNN
+	1    7500 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4981C4
+P 7500 4550
+F 0 "#PWR?" H 7500 4300 50  0001 C CNN
+F 1 "GND" H 7505 4377 50  0000 C CNN
+F 2 "" H 7500 4550 50  0001 C CNN
+F 3 "" H 7500 4550 50  0001 C CNN
+	1    7500 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5D4981CE
+P 8000 4750
+F 0 "J?" V 7846 4798 50  0000 L CNN
+F 1 "SHIELD" V 7937 4798 50  0000 L CNN
+F 2 "" H 8000 4750 50  0001 C CNN
+F 3 "~" H 8000 4750 50  0001 C CNN
+	1    8000 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4981D8
+P 8000 4550
+F 0 "#PWR?" H 8000 4300 50  0001 C CNN
+F 1 "GND" H 8005 4377 50  0000 C CNN
+F 2 "" H 8000 4550 50  0001 C CNN
+F 3 "" H 8000 4550 50  0001 C CNN
+	1    8000 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5D4A3332
+P 8500 4750
+F 0 "J?" V 8346 4798 50  0000 L CNN
+F 1 "SHIELD" V 8437 4798 50  0000 L CNN
+F 2 "" H 8500 4750 50  0001 C CNN
+F 3 "~" H 8500 4750 50  0001 C CNN
+	1    8500 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4A333C
+P 8500 4550
+F 0 "#PWR?" H 8500 4300 50  0001 C CNN
+F 1 "GND" H 8505 4377 50  0000 C CNN
+F 2 "" H 8500 4550 50  0001 C CNN
+F 3 "" H 8500 4550 50  0001 C CNN
+	1    8500 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5D4A3346
+P 9000 4750
+F 0 "J?" V 8846 4798 50  0000 L CNN
+F 1 "SHIELD" V 8937 4798 50  0000 L CNN
+F 2 "" H 9000 4750 50  0001 C CNN
+F 3 "~" H 9000 4750 50  0001 C CNN
+	1    9000 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4A3350
+P 9000 4550
+F 0 "#PWR?" H 9000 4300 50  0001 C CNN
+F 1 "GND" H 9005 4377 50  0000 C CNN
+F 2 "" H 9000 4550 50  0001 C CNN
+F 3 "" H 9000 4550 50  0001 C CNN
+	1    9000 4550
+	-1   0    0    1   
+$EndComp
+Text Label 2400 4700 1    50   ~ 0
+IO_L5P_T0_AD9P_35
+Text Label 3850 4700 1    50   ~ 0
+IO_L4N_T0_35
+Text Label 5300 4700 1    50   ~ 0
+IO_L5N_T0_AD9N_35
+Text Label 2400 6800 1    50   ~ 0
+IO_L4P_T0_35
+Text Label 3850 6800 1    50   ~ 0
+IO_L6P_T0_35
+Text Label 5300 6800 1    50   ~ 0
+IO_L1N_T0_AD0N_35
+$Comp
+L Device:R R?
+U 1 1 5D521E45
+P 2400 4850
+F 0 "R?" H 2470 4896 50  0000 L CNN
+F 1 "100" H 2470 4805 50  0000 L CNN
+F 2 "" V 2330 4850 50  0001 C CNN
+F 3 "~" H 2400 4850 50  0001 C CNN
+	1    2400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D5259EE
+P 3850 4850
+F 0 "R?" H 3920 4896 50  0000 L CNN
+F 1 "100" H 3920 4805 50  0000 L CNN
+F 2 "" V 3780 4850 50  0001 C CNN
+F 3 "~" H 3850 4850 50  0001 C CNN
+	1    3850 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D52605A
+P 5300 4850
+F 0 "R?" H 5370 4896 50  0000 L CNN
+F 1 "100" H 5370 4805 50  0000 L CNN
+F 2 "" V 5230 4850 50  0001 C CNN
+F 3 "~" H 5300 4850 50  0001 C CNN
+	1    5300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D526540
+P 2400 6950
+F 0 "R?" H 2470 6996 50  0000 L CNN
+F 1 "100" H 2470 6905 50  0000 L CNN
+F 2 "" V 2330 6950 50  0001 C CNN
+F 3 "~" H 2400 6950 50  0001 C CNN
+	1    2400 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D526B6B
+P 3850 6950
+F 0 "R?" H 3920 6996 50  0000 L CNN
+F 1 "100" H 3920 6905 50  0000 L CNN
+F 2 "" V 3780 6950 50  0001 C CNN
+F 3 "~" H 3850 6950 50  0001 C CNN
+	1    3850 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D527179
+P 5300 6950
+F 0 "R?" H 5370 6996 50  0000 L CNN
+F 1 "100" H 5370 6905 50  0000 L CNN
+F 2 "" V 5230 6950 50  0001 C CNN
+F 3 "~" H 5300 6950 50  0001 C CNN
+	1    5300 6950
+	1    0    0    -1  
+$EndComp
+Text Label 2300 5000 1    50   ~ 0
+IO_L6N_T0_VREF_35
+Text Label 3750 5000 1    50   ~ 0
+IO_L1P_T0_AD0P_35
+Text Label 5200 5000 1    50   ~ 0
+IO_L3P_T0_DQS_AD1P_35
+Text Label 2300 7100 1    50   ~ 0
+IO_L2N_T0_AD8N_35
+Text Label 3750 7100 1    50   ~ 0
+IO_L3N_T0_DQS_AD1N_35
+Text Label 5200 7100 1    50   ~ 0
+IO_L2P_T0_AD8P_35
+Text Label 2200 5000 1    50   ~ 0
+IO_L15P_T2_DQS_AD12P_35
+Text Label 3650 5000 1    50   ~ 0
+IO_L18N_T2_AD13N_35
+Text Label 5100 5000 1    50   ~ 0
+IO_L15N_T2_DQS_AD12N_35
+Text Label 2200 7100 1    50   ~ 0
+IO_L18P_T2_AD13P_35
+Text Label 3650 7100 1    50   ~ 0
+IO_L17P_T2_AD5P_35
+Text Label 5100 7100 1    50   ~ 0
+IO_L16N_T2_35
+$Comp
+L power:GND #PWR?
+U 1 1 5D534163
+P 3550 4050
+F 0 "#PWR?" H 3550 3800 50  0001 C CNN
+F 1 "GND" H 3555 3877 50  0000 C CNN
+F 2 "" H 3550 4050 50  0001 C CNN
+F 3 "" H 3550 4050 50  0001 C CNN
+	1    3550 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 4050 3550 5000
+$Comp
+L power:GND #PWR?
+U 1 1 5D5418FE
+P 2100 4050
+F 0 "#PWR?" H 2100 3800 50  0001 C CNN
+F 1 "GND" H 2105 3877 50  0000 C CNN
+F 2 "" H 2100 4050 50  0001 C CNN
+F 3 "" H 2100 4050 50  0001 C CNN
+	1    2100 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 4050 2100 5000
+$Comp
+L power:GND #PWR?
+U 1 1 5D547629
+P 5000 4050
+F 0 "#PWR?" H 5000 3800 50  0001 C CNN
+F 1 "GND" H 5005 3877 50  0000 C CNN
+F 2 "" H 5000 4050 50  0001 C CNN
+F 3 "" H 5000 4050 50  0001 C CNN
+	1    5000 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 4050 5000 5000
+$Comp
+L power:GND #PWR?
+U 1 1 5D55265C
+P 2100 6150
+F 0 "#PWR?" H 2100 5900 50  0001 C CNN
+F 1 "GND" H 2105 5977 50  0000 C CNN
+F 2 "" H 2100 6150 50  0001 C CNN
+F 3 "" H 2100 6150 50  0001 C CNN
+	1    2100 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 6150 2100 7100
+$Comp
+L power:GND #PWR?
+U 1 1 5D552B67
+P 3550 6150
+F 0 "#PWR?" H 3550 5900 50  0001 C CNN
+F 1 "GND" H 3555 5977 50  0000 C CNN
+F 2 "" H 3550 6150 50  0001 C CNN
+F 3 "" H 3550 6150 50  0001 C CNN
+	1    3550 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 6150 3550 7100
+$Comp
+L power:GND #PWR?
+U 1 1 5D553071
+P 5000 6150
+F 0 "#PWR?" H 5000 5900 50  0001 C CNN
+F 1 "GND" H 5005 5977 50  0000 C CNN
+F 2 "" H 5000 6150 50  0001 C CNN
+F 3 "" H 5000 6150 50  0001 C CNN
+	1    5000 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 6150 5000 7100
+Text Label 2000 5000 1    50   ~ 0
+IO_L17N_T2_AD5N_35
+Text Label 1900 5000 1    50   ~ 0
+IO_L16P_T2_35
+Text Label 1800 5000 1    50   ~ 0
+IO_L14P_T2_AD4P_SRCC_35
+Text Label 1700 5000 1    50   ~ 0
+IO_L13N_T2_MRCC_35
+Text Label 1600 5000 1    50   ~ 0
+IO_L14N_T2_AD4N_SRCC_35
+Text Label 1500 5000 1    50   ~ 0
+IO_L13P_T2_MRCC_35
+Text Label 1400 5000 1    50   ~ 0
+IO_L22P_T3_AD7P_35
+Text Label 1300 5000 1    50   ~ 0
+IO_L24N_T3_AD15N_35
+Text Label 2000 7100 1    50   ~ 0
+IO_L22N_T3_AD7N_35
+Text Label 1900 7100 1    50   ~ 0
+IO_L24P_T3_AD15P_35
+Text Label 1800 7100 1    50   ~ 0
+IO_L23P_T3_35
+Text Label 1700 7100 1    50   ~ 0
+IO_L19N_T3_VREF_35
+Text Label 1600 7100 1    50   ~ 0
+IO_L23N_T3_35
+Text Label 1500 7100 1    50   ~ 0
+IO_L19P_T3_35
+Text Label 1400 7100 1    50   ~ 0
+IO_L21P_T3_DQS_AD14P_35
+Text Label 1300 7100 1    50   ~ 0
+IO_L20N_T3_AD6N_35
+Text Label 3450 5000 1    50   ~ 0
+IO_L21N_T3_DQS_AD14N_35
+Text Label 3350 5000 1    50   ~ 0
+IO_L20P_T3_AD6P_35
+Text Label 3250 5000 1    50   ~ 0
+IO_L9P_T1_DQS_AD3P_35
+Text Label 3150 5000 1    50   ~ 0
+IO_L10N_T1_AD11N_35
+Text Label 3050 5000 1    50   ~ 0
+IO_L9N_T1_DQS_AD3N_35
+Text Label 2950 5000 1    50   ~ 0
+IO_L10P_T1_AD11P_35
+Text Label 3450 7100 1    50   ~ 0
+IO_L8P_T1_AD10P_35
+Text Label 3350 7100 1    50   ~ 0
+IO_L7N_T1_AD2N_35
+Text Label 3250 7100 1    50   ~ 0
+IO_L8N_T1_AD10N_35
+Text Label 3150 7100 1    50   ~ 0
+IO_L7P_T1_AD2P_35
+Text Label 3050 7100 1    50   ~ 0
+IO_L11P_T1_SRCC_35
+Text Label 2950 7100 1    50   ~ 0
+IO_L12N_T1_MRCC_35
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 5D5C9F6B
+P 8200 2400
+F 0 "J?" H 8250 3517 50  0000 C CNN
+F 1 "JB1" H 8250 3426 50  0000 C CNN
+F 2 "" H 8200 2400 50  0001 C CNN
+F 3 "~" H 8200 2400 50  0001 C CNN
+	1    8200 2400
+	1    0    0    -1  
+$EndComp
+Text Label 8000 1500 2    50   ~ 0
+VIO_OUT(+3.3V)
+Text Label 8000 1600 2    50   ~ 0
+VCCO_34
+Text Label 8000 1700 2    50   ~ 0
+IO_L1P_T0_34
+Text Label 8000 1800 2    50   ~ 0
+IO_L1N_T0_34
+Text Label 8000 1900 2    50   ~ 0
+GND
+Text Label 8000 2200 2    50   ~ 0
+GND
+Text Label 8000 2500 2    50   ~ 0
+GND
+Text Label 8000 2800 2    50   ~ 0
+GND
+Text Label 8000 3100 2    50   ~ 0
+GND
+Text Label 8000 2000 2    50   ~ 0
+IO_L6P_T0_34
+Text Label 8000 2100 2    50   ~ 0
+IO_L6N_T0_VREF_34
+Text Label 8000 2300 2    50   ~ 0
+IO_L3P_T0_DQS_PUDC_B_34
+Text Label 8000 2400 2    50   ~ 0
+IO_L3N_T0_DQS_34
+Text Label 8000 2600 2    50   ~ 0
+IO_L9P_T1_DQS_34
+Text Label 8000 2700 2    50   ~ 0
+IO_L9N_T1_DQS_34
+Text Label 8000 2900 2    50   ~ 0
+IO_L8P_T1_34
+Text Label 8000 3000 2    50   ~ 0
+IO_L8N_T1_34
+Text Label 8000 3200 2    50   ~ 0
+IO_L11P_T1_SRCC_34
+Text Label 8000 3300 2    50   ~ 0
+IO_L11N_T1_SRCC_34
+Text Label 8000 3400 2    50   ~ 0
+SMB_I2C_SCL2
+Text Label 8500 3400 0    50   ~ 0
+SMB_I2C_SDA2
+Text Label 8500 3300 0    50   ~ 0
+IO_L12P_T1_MRCC_34
+Text Label 8500 3200 0    50   ~ 0
+IO_L12N_T1_MRCC_34
+Text Label 8500 3100 0    50   ~ 0
+GND
+Text Label 8500 2800 0    50   ~ 0
+GND
+Text Label 8500 2500 0    50   ~ 0
+GND
+Text Label 8500 2200 0    50   ~ 0
+GND
+Text Label 8500 1900 0    50   ~ 0
+GND
+Text Label 8500 3000 0    50   ~ 0
+IO_L10P_T1_34
+Text Label 8500 2900 0    50   ~ 0
+IO_L10N_T1_34
+Text Label 8500 2700 0    50   ~ 0
+IO_L7P_T1_34
+Text Label 8500 2600 0    50   ~ 0
+IO_L7N_T1_34
+Text Label 8500 2400 0    50   ~ 0
+IO_L5P_T0_34
+Text Label 8500 2300 0    50   ~ 0
+IO_L5N_T0_34
+Text Label 8500 2100 0    50   ~ 0
+IO_L4P_T0_34
+Text Label 8500 2000 0    50   ~ 0
+IO_L4N_T0_34
+Text Label 8500 1800 0    50   ~ 0
+IO_L2P_T0_34
+Text Label 8500 1700 0    50   ~ 0
+IO_L2N_T0_34
+Text Label 8500 1600 0    50   ~ 0
+IO_25_34
+Text Label 8500 1500 0    50   ~ 0
+JB1_SMB_nINT
+Text Label 4900 5000 1    50   ~ 0
+IO_L11N_T1_SRCC_35
+Text Label 4800 5000 1    50   ~ 0
+IO_L12P_T1_MRCC_35
+Text Label 4700 5000 1    50   ~ 0
+IO_L1P_T0_34
+Text Label 4600 5000 1    50   ~ 0
+IO_L2N_T0_34
+Text Label 4500 5000 1    50   ~ 0
+IO_L1N_T0_34
+Text Label 4400 5000 1    50   ~ 0
+IO_L2P_T0_34
+Text Label 4900 7100 1    50   ~ 0
+IO_L6P_T0_34
+Text Label 4800 7100 1    50   ~ 0
+IO_L4N_T0_34
+Text Label 4700 7100 1    50   ~ 0
+IO_L6N_T0_VREF_34
+Text Label 4600 7100 1    50   ~ 0
+IO_L4P_T0_34
+Text Label 4500 7100 1    50   ~ 0
+IO_L3P_T0_DQS_PUDC_B_34
+Text Label 4400 7100 1    50   ~ 0
+IO_L5N_T0_34
+$EndSCHEMATC
