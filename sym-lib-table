@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Snickerdoodle)(type Legacy)(uri ${KIPRJMOD}/kicad_db/lib/Snickerdoodle.lib)(options "")(descr ""))
   (lib (name 88E1518-A0-NNB2C000)(type Legacy)(uri ${KIPRJMOD}/kicad_db/lib/88E1518-A0-NNB2C000.lib)(options "")(descr ""))
+  (lib (name custom)(type Legacy)(uri ${KIPRJMOD}/kicad_db/lib/custom.lib)(options "")(descr ""))
 )

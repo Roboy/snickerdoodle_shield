@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:snickerdoodle_shield-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 6
 Title "Ethernet Phy"
 Date "2019-07-31"
 Rev "0.1"
