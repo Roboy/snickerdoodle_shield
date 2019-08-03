@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -254,8 +254,136 @@ F 3 "~" H 8300 4950 50  0001 C CNN
 	1    8300 4950
 	0    1    1    0   
 $EndComp
-Text Label 8300 4750 1    50   ~ 0
-GND
 Text Label 8200 4750 1    50   ~ 0
 VIN(+3.7-17V)
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 5D45A4F5
+P 9450 4650
+F 0 "J?" H 9558 5031 50  0000 C CNN
+F 1 "JTAG" H 9558 4940 50  0000 C CNN
+F 2 "" H 9450 4650 50  0001 C CNN
+F 3 "~" H 9450 4650 50  0001 C CNN
+	1    9450 4650
+	1    0    0    -1  
+$EndComp
+Text Label 9650 4450 0    50   ~ 0
+TMS_0
+Text Label 9650 4550 0    50   ~ 0
+TDI_0
+Text Label 9650 4650 0    50   ~ 0
+TDO_0
+Text Label 9650 4750 0    50   ~ 0
+TCK_0
+Text Label 9650 4850 0    50   ~ 0
+GND
+Text Label 9650 4950 0    50   ~ 0
+VCCO_0(+3.3V)
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 5D460F26
+P 4450 5300
+F 0 "J?" H 4558 5681 50  0000 C CNN
+F 1 "GND" H 4558 5590 50  0000 C CNN
+F 2 "" H 4450 5300 50  0001 C CNN
+F 3 "~" H 4450 5300 50  0001 C CNN
+	1    4450 5300
+	1    0    0    -1  
+$EndComp
+Text Label 7200 4850 0    50   ~ 0
+GND
+$Comp
+L power:GND #PWR?
+U 1 1 5D46390F
+P 7200 4850
+F 0 "#PWR?" H 7200 4600 50  0001 C CNN
+F 1 "GND" V 7205 4722 50  0000 R CNN
+F 2 "" H 7200 4850 50  0001 C CNN
+F 3 "" H 7200 4850 50  0001 C CNN
+	1    7200 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4649FA
+P 8300 4750
+F 0 "#PWR?" H 8300 4500 50  0001 C CNN
+F 1 "GND" H 8305 4577 50  0000 C CNN
+F 2 "" H 8300 4750 50  0001 C CNN
+F 3 "" H 8300 4750 50  0001 C CNN
+	1    8300 4750
+	-1   0    0    1   
+$EndComp
+Text Label 1850 1650 2    50   ~ 0
+VIO_OUT(+3.3V)
+Wire Wire Line
+	2150 1650 1850 1650
+Text Notes 1650 1500 0    50   ~ 0
+supply powerbank
+Text Label 2150 1650 0    50   ~ 0
+VCCO_13
+Text Label 4250 1450 2    50   ~ 0
+IO_L6N_T0_VREF_13
+Text HLabel 4800 1450 2    50   Output ~ 0
+neopixel
+Wire Wire Line
+	4800 1450 4250 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5D6ED77B
+P 4650 5750
+F 0 "#PWR?" H 4650 5500 50  0001 C CNN
+F 1 "GND" H 4655 5577 50  0000 C CNN
+F 2 "" H 4650 5750 50  0001 C CNN
+F 3 "" H 4650 5750 50  0001 C CNN
+	1    4650 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5100 4650 5200
+Connection ~ 4650 5200
+Wire Wire Line
+	4650 5200 4650 5300
+Connection ~ 4650 5300
+Wire Wire Line
+	4650 5300 4650 5400
+Connection ~ 4650 5400
+Wire Wire Line
+	4650 5400 4650 5500
+Connection ~ 4650 5500
+Wire Wire Line
+	4650 5500 4650 5600
+Connection ~ 4650 5600
+Wire Wire Line
+	4650 5600 4650 5750
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 5D6EE494
+P 5000 5300
+F 0 "J?" H 5108 5681 50  0000 C CNN
+F 1 "3.3V" H 5108 5590 50  0000 C CNN
+F 2 "" H 5000 5300 50  0001 C CNN
+F 3 "~" H 5000 5300 50  0001 C CNN
+	1    5000 5300
+	1    0    0    -1  
+$EndComp
+Text Label 5200 5800 3    50   ~ 0
+VIO_OUT(+3.3V)
+Wire Wire Line
+	5200 5100 5200 5200
+Connection ~ 5200 5200
+Wire Wire Line
+	5200 5200 5200 5300
+Connection ~ 5200 5300
+Wire Wire Line
+	5200 5300 5200 5400
+Connection ~ 5200 5400
+Wire Wire Line
+	5200 5400 5200 5500
+Connection ~ 5200 5500
+Wire Wire Line
+	5200 5500 5200 5600
+Connection ~ 5200 5600
+Wire Wire Line
+	5200 5600 5200 5800
 $EndSCHEMATC

@@ -485,4 +485,25 @@ Text Label 8500 2950 2    50   ~ 0
 IO_L22N_T3_34
 Text Label 8500 3050 2    50   ~ 0
 IO_L22P_T3_34
+$Comp
+L power:GND #PWR?
+U 1 1 5D47113F
+P 3450 4100
+F 0 "#PWR?" H 3450 3850 50  0001 C CNN
+F 1 "GND" V 3455 3972 50  0000 R CNN
+F 2 "" H 3450 4100 50  0001 C CNN
+F 3 "" H 3450 4100 50  0001 C CNN
+	1    3450 4100
+	0    1    1    0   
+$EndComp
+Text Label 3450 4100 0    50   ~ 0
+GND
+Text Label 2150 4150 2    50   ~ 0
+VIO_OUT(+3.3V)
+Text Label 2450 4150 0    50   ~ 0
+VCCO_34
+Wire Wire Line
+	2450 4150 2150 4150
+Text Notes 1950 4000 0    50   ~ 0
+supply powerbank
 $EndSCHEMATC

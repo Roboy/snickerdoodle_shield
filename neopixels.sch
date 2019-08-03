@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -25,30 +25,8 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    1250 1250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D4E2B54
-P 900 1700
-F 0 "#PWR?" H 900 1450 50  0001 C CNN
-F 1 "GND" V 905 1572 50  0000 R CNN
-F 2 "" H 900 1700 50  0001 C CNN
-F 3 "" H 900 1700 50  0001 C CNN
-	1    900  1700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1250 1700 1250 1550
-$Comp
-L power:+5V #PWR?
-U 1 1 5D4E3B6B
-P 900 950
-F 0 "#PWR?" H 900 800 50  0001 C CNN
-F 1 "+5V" V 915 1078 50  0000 L CNN
-F 2 "" H 900 950 50  0001 C CNN
-F 3 "" H 900 950 50  0001 C CNN
-	1    900  950 
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	900  1700 1250 1700
 $Comp
@@ -2268,4 +2246,118 @@ Wire Wire Line
 Connection ~ 6800 6450
 Wire Wire Line
 	6800 6450 7150 6450
+Wire Wire Line
+	10550 1250 10550 2550
+Wire Wire Line
+	10550 3800 10550 5200
+Wire Wire Line
+	10550 5200 10600 5200
+NoConn ~ 1000 5200
+Text HLabel 950  1250 0    50   Input ~ 0
+neopixel
+$Comp
+L custom:PYBE20-Q24-S5 U?
+U 1 1 5D57CDE2
+P 4200 6950
+F 0 "U?" H 4768 6776 50  0000 L CNN
+F 1 "PYBE20-Q24-S5" H 4768 6685 50  0000 L CNN
+F 2 "" H 4200 6950 50  0001 C CNN
+F 3 "" H 4200 6950 50  0001 C CNN
+	1    4200 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5D5A376E
+P 3100 6900
+F 0 "J?" H 2992 6575 50  0000 C CNN
+F 1 "NEOPIXEL_POWER" H 2992 6666 50  0000 C CNN
+F 2 "" H 3100 6900 50  0001 C CNN
+F 3 "~" H 3100 6900 50  0001 C CNN
+	1    3100 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 6900 4100 6900
+Wire Wire Line
+	4100 6900 4100 6950
+$Comp
+L power:+5V #PWR?
+U 1 1 5D61B0A2
+P 4100 7100
+F 0 "#PWR?" H 4100 6950 50  0001 C CNN
+F 1 "+5V" V 4115 7228 50  0000 L CNN
+F 2 "" H 4100 7100 50  0001 C CNN
+F 3 "" H 4100 7100 50  0001 C CNN
+	1    4100 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 6800 3450 6800
+Wire Wire Line
+	3450 7400 3450 6800
+Wire Wire Line
+	3450 7400 4100 7400
+Connection ~ 3450 6800
+Wire Wire Line
+	3450 6800 4100 6800
+$Comp
+L power:GND #PWR?
+U 1 1 5D648B23
+P 3450 7400
+F 0 "#PWR?" H 3450 7150 50  0001 C CNN
+F 1 "GND" V 3450 7200 50  0000 R CNN
+F 2 "" H 3450 7400 50  0001 C CNN
+F 3 "" H 3450 7400 50  0001 C CNN
+	1    3450 7400
+	0    1    1    0   
+$EndComp
+Connection ~ 3450 7400
+NoConn ~ 4100 7250
+$Comp
+L power:+5V #PWR?
+U 1 1 5D4E3B6B
+P 900 950
+F 0 "#PWR?" H 900 800 50  0001 C CNN
+F 1 "+5V" V 915 1078 50  0000 L CNN
+F 2 "" H 900 950 50  0001 C CNN
+F 3 "" H 900 950 50  0001 C CNN
+	1    900  950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4E2B54
+P 900 1700
+F 0 "#PWR?" H 900 1450 50  0001 C CNN
+F 1 "GND" V 905 1572 50  0000 R CNN
+F 2 "" H 900 1700 50  0001 C CNN
+F 3 "" H 900 1700 50  0001 C CNN
+	1    900  1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D6A7B75
+P 2600 7550
+F 0 "SW?" H 2600 7835 50  0000 C CNN
+F 1 "ON/OFF 5V Converter" H 2600 7744 50  0000 C CNN
+F 2 "" H 2600 7750 50  0001 C CNN
+F 3 "~" H 2600 7750 50  0001 C CNN
+	1    2600 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D6A86AE
+P 2400 7550
+F 0 "#PWR?" H 2400 7300 50  0001 C CNN
+F 1 "GND" V 2400 7350 50  0000 R CNN
+F 2 "" H 2400 7550 50  0001 C CNN
+F 3 "" H 2400 7550 50  0001 C CNN
+	1    2400 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 7550 2800 7550
 $EndSCHEMATC

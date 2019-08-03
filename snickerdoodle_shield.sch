@@ -15,13 +15,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6750 1050 950  850 
+S 4900 1050 950  850 
 U 5D427209
 F0 "ethernet_phy" 50
 F1 "ethernet_phy.sch" 50
 $EndSheet
 $Bitmap
-Pos 7250 1400
+Pos 5400 1400
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 2C 00 00 01 2C 08 02 00 00 00 F6 1F 19 
@@ -10475,7 +10475,7 @@ B2 5D AA FC D3 FB 41 88 4A 9B 51 9D 00 12 DE 4D A4 DA 38 08 5A E9 3D 01 00 A5 94
 EndData
 $EndBitmap
 $Bitmap
-Pos 6150 1650
+Pos 4300 1650
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 08 00 00 01 42 08 02 00 00 00 82 57 D4 
@@ -14192,19 +14192,13 @@ AD E2 1F 33 86 DF F3 EB 7B D9 E6 FF 30 74 00 F8 FF 01 FE 5E 70 BE 34 80 D6 73 00
 EndData
 $EndBitmap
 $Sheet
-S 5650 1050 1000 1200
+S 3800 1050 1000 1200
 U 5D44F62E
 F0 "microphones" 50
 F1 "microphones.sch" 50
 $EndSheet
-$Sheet
-S 3850 1050 1700 1250
-U 5D4E0E77
-F0 "neopixels" 50
-F1 "neopixels.sch" 50
-$EndSheet
 $Bitmap
-Pos 4700 1700
+Pos 7700 1700
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 E5 00 00 01 6C 08 02 00 00 00 7D ED 36 
@@ -21571,9 +21565,19 @@ FF 1F 68 C4 C0 0B 88 7A 94 E7 00 00 00 00 49 45 4E 44 AE 42 60 82
 EndData
 $EndBitmap
 $Sheet
-S 7800 1050 700  650 
+S 5950 1050 700  650 
 U 5D7C0BE0
 F0 "IO" 50
 F1 "IO.sch" 50
+F2 "neopixel" O R 6650 1350 50 
 $EndSheet
+$Sheet
+S 6850 1050 1700 1250
+U 5D4E0E77
+F0 "neopixels" 50
+F1 "neopixels.sch" 50
+F2 "neopixel" I L 6850 1350 50 
+$EndSheet
+Wire Wire Line
+	6650 1350 6850 1350
 $EndSCHEMATC

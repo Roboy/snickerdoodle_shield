@@ -560,4 +560,17 @@ F 3 "" H 8900 4350 50  0001 C CNN
 	1    8900 4350
 	-1   0    0    1   
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D46E938
+P 4550 4000
+F 0 "#PWR?" H 4550 3750 50  0001 C CNN
+F 1 "GND" V 4550 3800 50  0000 C CNN
+F 2 "" H 4550 4000 50  0001 C CNN
+F 3 "" H 4550 4000 50  0001 C CNN
+	1    4550 4000
+	0    1    1    0   
+$EndComp
+Text Label 4550 4000 0    50   ~ 0
+GND
 $EndSCHEMATC

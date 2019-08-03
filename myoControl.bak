@@ -745,4 +745,35 @@ Text Label 4500 7100 1    50   ~ 0
 IO_L3P_T0_DQS_PUDC_B_34
 Text Label 4400 7100 1    50   ~ 0
 IO_L5N_T0_34
+Text Label 2300 1000 2    50   ~ 0
+VIO_OUT(+3.3V)
+Wire Wire Line
+	2600 1000 2300 1000
+Text Notes 2100 850  0    50   ~ 0
+supply powerbank
+Text Label 2600 1000 0    50   ~ 0
+VCCO_35
+Text Label 7750 950  2    50   ~ 0
+VIO_OUT(+3.3V)
+Wire Wire Line
+	8050 950  7750 950 
+Text Notes 7550 800  0    50   ~ 0
+supply powerbank
+Text Label 8050 950  0    50   ~ 0
+VCCO_34
+$Comp
+L power:GND #PWR?
+U 1 1 5D53E658
+P 5100 950
+F 0 "#PWR?" H 5100 700 50  0001 C CNN
+F 1 "GND" H 5105 777 50  0000 C CNN
+F 2 "" H 5100 950 50  0001 C CNN
+F 3 "" H 5100 950 50  0001 C CNN
+	1    5100 950 
+	0    -1   -1   0   
+$EndComp
+Text Label 4850 950  2    50   ~ 0
+GND
+Wire Wire Line
+	5100 950  4850 950 
 $EndSCHEMATC
