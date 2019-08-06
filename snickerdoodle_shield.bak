@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 8
 Title ""
 Date ""
 Rev "0.1"
@@ -21580,4 +21580,10 @@ F2 "neopixel" I L 6850 1350 50
 $EndSheet
 Wire Wire Line
 	6650 1350 6850 1350
+$Sheet
+S 2050 3050 1700 1300
+U 5D83AF26
+F0 "power" 50
+F1 "power.sch" 50
+$EndSheet
 $EndSCHEMATC

@@ -1,0 +1,337 @@
+EESchema Schematic File Version 4
+LIBS:snickerdoodle_shield-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L custom:MHB100-24S05‎ U?
+U 1 1 5D83BC44
+P 3950 2350
+F 0 "U?" H 4250 2725 50  0000 C CNN
+F 1 "MHB100-24S05‎" H 4250 2634 50  0000 C CNN
+F 2 "" H 3950 2350 50  0001 C CNN
+F 3 "" H 3950 2350 50  0001 C CNN
+	1    3950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5D83C0D4
+P 1600 2300
+F 0 "J?" H 1492 1975 50  0000 C CNN
+F 1 "POWER" H 1492 2066 50  0000 C CNN
+F 2 "" H 1600 2300 50  0001 C CNN
+F 3 "~" H 1600 2300 50  0001 C CNN
+	1    1600 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 2650 1800 2300
+$Comp
+L Device:CP 220uF/50V_ESR<0.13
+U 1 1 5D83CAB4
+P 2000 2350
+F 0 "220uF/50V_ESR<0.13" H 1350 1950 50  0000 L CNN
+F 1 "CP" H 2118 2305 50  0000 L CNN
+F 2 "" H 2038 2200 50  0001 C CNN
+F 3 "~" H 2000 2350 50  0001 C CNN
+	1    2000 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2200 1800 2200
+$Comp
+L Device:L L?
+U 1 1 5D83D310
+P 2400 2200
+F 0 "L?" V 2219 2200 50  0000 C CNN
+F 1 "3.4uH" V 2310 2200 50  0000 C CNN
+F 2 "" H 2400 2200 50  0001 C CNN
+F 3 "~" H 2400 2200 50  0001 C CNN
+	1    2400 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 2200 2250 2200
+Connection ~ 2000 2200
+Wire Wire Line
+	2000 2500 2000 2650
+Connection ~ 2000 2650
+Wire Wire Line
+	2000 2650 1800 2650
+Wire Wire Line
+	2550 2200 2600 2200
+$Comp
+L Device:CP 220uF/50V_ESR<0.13
+U 1 1 5D83F8A1
+P 2600 2350
+F 0 "220uF/50V_ESR<0.13" H 2200 1950 50  0000 L CNN
+F 1 "CP" H 2718 2305 50  0000 L CNN
+F 2 "" H 2638 2200 50  0001 C CNN
+F 3 "~" H 2600 2350 50  0001 C CNN
+	1    2600 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 2200
+Wire Wire Line
+	2000 2650 2600 2650
+Wire Wire Line
+	2600 2500 2600 2650
+Connection ~ 2600 2650
+$Comp
+L Device:C C?
+U 1 1 5D842539
+P 2900 2500
+F 0 "C?" H 3015 2546 50  0000 L CNN
+F 1 "2200pF" H 3015 2455 50  0000 L CNN
+F 2 "" H 2938 2350 50  0001 C CNN
+F 3 "~" H 2900 2500 50  0001 C CNN
+	1    2900 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2650 2900 2650
+Wire Wire Line
+	3250 2350 2900 2350
+Wire Wire Line
+	2600 2200 3650 2200
+Connection ~ 2900 2650
+Wire Wire Line
+	2900 2650 3650 2650
+Wire Wire Line
+	3250 2500 3250 2350
+Wire Wire Line
+	3250 2500 3650 2500
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D84933E
+P 3200 1800
+F 0 "SW?" H 3200 2085 50  0000 C CNN
+F 1 "SW_Push" H 3200 1994 50  0000 C CNN
+F 2 "" H 3200 2000 50  0001 C CNN
+F 3 "~" H 3200 2000 50  0001 C CNN
+	1    3200 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1800 3400 2350
+Wire Wire Line
+	3400 2350 3650 2350
+$Comp
+L power:GND #PWR?
+U 1 1 5D849A4A
+P 3000 1800
+F 0 "#PWR?" H 3000 1550 50  0001 C CNN
+F 1 "GND" V 3005 1672 50  0000 R CNN
+F 2 "" H 3000 1800 50  0001 C CNN
+F 3 "" H 3000 1800 50  0001 C CNN
+	1    3000 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D849E31
+P 1800 2650
+F 0 "#PWR?" H 1800 2400 50  0001 C CNN
+F 1 "GND" V 1805 2522 50  0000 R CNN
+F 2 "" H 1800 2650 50  0001 C CNN
+F 3 "" H 1800 2650 50  0001 C CNN
+	1    1800 2650
+	0    1    1    0   
+$EndComp
+Connection ~ 1800 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5D84A2E2
+P 4850 2200
+F 0 "#PWR?" H 4850 1950 50  0001 C CNN
+F 1 "GND" V 4855 2072 50  0000 R CNN
+F 2 "" H 4850 2200 50  0001 C CNN
+F 3 "" H 4850 2200 50  0001 C CNN
+	1    4850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D84AF10
+P 4850 2800
+F 0 "#PWR?" H 4850 2650 50  0001 C CNN
+F 1 "+5V" V 4865 2928 50  0000 L CNN
+F 2 "" H 4850 2800 50  0001 C CNN
+F 3 "" H 4850 2800 50  0001 C CNN
+	1    4850 2800
+	0    1    1    0   
+$EndComp
+NoConn ~ 4850 2350
+NoConn ~ 4850 2500
+NoConn ~ 4850 2650
+$Comp
+L Connector:Barrel_Jack_MountingPin J?
+U 1 1 5D8588B7
+P 6800 2300
+F 0 "J?" H 6570 2172 50  0000 R CNN
+F 1 "Barrel_Jack_5V" H 6570 2263 50  0000 R CNN
+F 2 "" H 6850 2260 50  0001 C CNN
+F 3 "~" H 6850 2260 50  0001 C CNN
+	1    6800 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D859B25
+P 6500 2200
+F 0 "#PWR?" H 6500 1950 50  0001 C CNN
+F 1 "GND" V 6505 2072 50  0000 R CNN
+F 2 "" H 6500 2200 50  0001 C CNN
+F 3 "" H 6500 2200 50  0001 C CNN
+	1    6500 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 2000 6500 2000
+Wire Wire Line
+	6500 2000 6500 2200
+Connection ~ 6500 2200
+$Comp
+L power:+5V #PWR?
+U 1 1 5D85A20B
+P 6500 2400
+F 0 "#PWR?" H 6500 2250 50  0001 C CNN
+F 1 "+5V" V 6515 2528 50  0000 L CNN
+F 2 "" H 6500 2400 50  0001 C CNN
+F 3 "" H 6500 2400 50  0001 C CNN
+	1    6500 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Barrel_Jack_MountingPin J?
+U 1 1 5D85AE0D
+P 6800 2850
+F 0 "J?" H 6570 2722 50  0000 R CNN
+F 1 "Barrel_Jack_5V" H 6570 2813 50  0000 R CNN
+F 2 "" H 6850 2810 50  0001 C CNN
+F 3 "~" H 6850 2810 50  0001 C CNN
+	1    6800 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D85AE17
+P 6500 2750
+F 0 "#PWR?" H 6500 2500 50  0001 C CNN
+F 1 "GND" V 6505 2622 50  0000 R CNN
+F 2 "" H 6500 2750 50  0001 C CNN
+F 3 "" H 6500 2750 50  0001 C CNN
+	1    6500 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 2550 6500 2550
+Wire Wire Line
+	6500 2550 6500 2750
+Connection ~ 6500 2750
+$Comp
+L power:+5V #PWR?
+U 1 1 5D85AE24
+P 6500 2950
+F 0 "#PWR?" H 6500 2800 50  0001 C CNN
+F 1 "+5V" V 6515 3078 50  0000 L CNN
+F 2 "" H 6500 2950 50  0001 C CNN
+F 3 "" H 6500 2950 50  0001 C CNN
+	1    6500 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Barrel_Jack_MountingPin J?
+U 1 1 5D85DC30
+P 6800 3400
+F 0 "J?" H 6570 3272 50  0000 R CNN
+F 1 "Barrel_Jack_5V" H 6570 3363 50  0000 R CNN
+F 2 "" H 6850 3360 50  0001 C CNN
+F 3 "~" H 6850 3360 50  0001 C CNN
+	1    6800 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D85DC3A
+P 6500 3300
+F 0 "#PWR?" H 6500 3050 50  0001 C CNN
+F 1 "GND" V 6505 3172 50  0000 R CNN
+F 2 "" H 6500 3300 50  0001 C CNN
+F 3 "" H 6500 3300 50  0001 C CNN
+	1    6500 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 3100 6500 3100
+Wire Wire Line
+	6500 3100 6500 3300
+Connection ~ 6500 3300
+$Comp
+L power:+5V #PWR?
+U 1 1 5D85DC47
+P 6500 3500
+F 0 "#PWR?" H 6500 3350 50  0001 C CNN
+F 1 "+5V" V 6515 3628 50  0000 L CNN
+F 2 "" H 6500 3500 50  0001 C CNN
+F 3 "" H 6500 3500 50  0001 C CNN
+	1    6500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Barrel_Jack_MountingPin J?
+U 1 1 5D8615CB
+P 6800 3950
+F 0 "J?" H 6570 3822 50  0000 R CNN
+F 1 "Barrel_Jack_5V" H 6570 3913 50  0000 R CNN
+F 2 "" H 6850 3910 50  0001 C CNN
+F 3 "~" H 6850 3910 50  0001 C CNN
+	1    6800 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8615D5
+P 6500 3850
+F 0 "#PWR?" H 6500 3600 50  0001 C CNN
+F 1 "GND" V 6505 3722 50  0000 R CNN
+F 2 "" H 6500 3850 50  0001 C CNN
+F 3 "" H 6500 3850 50  0001 C CNN
+	1    6500 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 3650 6500 3650
+Wire Wire Line
+	6500 3650 6500 3850
+Connection ~ 6500 3850
+$Comp
+L power:+5V #PWR?
+U 1 1 5D8615E2
+P 6500 4050
+F 0 "#PWR?" H 6500 3900 50  0001 C CNN
+F 1 "+5V" V 6515 4178 50  0000 L CNN
+F 2 "" H 6500 4050 50  0001 C CNN
+F 3 "" H 6500 4050 50  0001 C CNN
+	1    6500 4050
+	0    -1   -1   0   
+$EndComp
+$Sheet
+S 2100 4050 2550 1500
+U 5D86C1F3
+F0 "body_part_power" 50
+F1 "body_part_power.sch" 50
+$EndSheet
+$EndSCHEMATC
